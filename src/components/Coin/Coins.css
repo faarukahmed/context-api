@@ -1,0 +1,20 @@
+.coins-all{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid orange;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.coins-all:hover{
+    cursor: pointer;
+}
+.coins-image img{
+    width: 65px;
+    height: 65px;
+}
+.coins-details h5, p{
+    margin: 0;
+    text-align: start;
+}
